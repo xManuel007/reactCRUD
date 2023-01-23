@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 1rem;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+button {
+  width: 5rem;
+  height: 3rem;
+  border: none;
+  border-radius: 5px;
+  background: #e0e0e0;
+  box-shadow:  6px 6px 15px #bcbcbc,
+              -6px -6px 15px #ffffff;
+  font-family: var(--font-comic);
+  transition: 1s;
+  &:hover {
+    box-shadow: none;
+  }
+  &:focus {
+    box-shadow: inset -3px -3px 10px white,
+                inset 3px  3px 10px #bcbcbc;
+  }
+ }
